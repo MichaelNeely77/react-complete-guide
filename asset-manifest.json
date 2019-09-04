@@ -1,13 +1,13 @@
 {
-  "main.css": "/github.io/react-complete-guide/static/css/main.33687901.chunk.css",
-  "main.js": "/github.io/react-complete-guide/static/js/main.e77f3089.chunk.js",
-  "main.js.map": "/github.io/react-complete-guide/static/js/main.e77f3089.chunk.js.map",
-  "runtime~main.js": "/github.io/react-complete-guide/static/js/runtime~main.854011c1.js",
-  "runtime~main.js.map": "/github.io/react-complete-guide/static/js/runtime~main.854011c1.js.map",
-  "static/js/2.a5d31feb.chunk.js": "/github.io/react-complete-guide/static/js/2.a5d31feb.chunk.js",
-  "static/js/2.a5d31feb.chunk.js.map": "/github.io/react-complete-guide/static/js/2.a5d31feb.chunk.js.map",
-  "index.html": "/github.io/react-complete-guide/index.html",
-  "precache-manifest.b9da0c45f637be2984628b91e0bd6c98.js": "/github.io/react-complete-guide/precache-manifest.b9da0c45f637be2984628b91e0bd6c98.js",
-  "service-worker.js": "/github.io/react-complete-guide/service-worker.js",
-  "static/css/main.33687901.chunk.css.map": "/github.io/react-complete-guide/static/css/main.33687901.chunk.css.map"
+  "main.css": "/react-complete-guide/static/css/main.33687901.chunk.css",
+  "main.js": "/react-complete-guide/static/js/main.4487a88b.chunk.js",
+  "main.js.map": "/react-complete-guide/static/js/main.4487a88b.chunk.js.map",
+  "runtime~main.js": "/react-complete-guide/static/js/runtime~main.934f712a.js",
+  "runtime~main.js.map": "/react-complete-guide/static/js/runtime~main.934f712a.js.map",
+  "static/js/2.a5d31feb.chunk.js": "/react-complete-guide/static/js/2.a5d31feb.chunk.js",
+  "static/js/2.a5d31feb.chunk.js.map": "/react-complete-guide/static/js/2.a5d31feb.chunk.js.map",
+  "index.html": "/react-complete-guide/index.html",
+  "precache-manifest.01f70eb71a01757177c59c6236d4eee0.js": "/react-complete-guide/precache-manifest.01f70eb71a01757177c59c6236d4eee0.js",
+  "service-worker.js": "/react-complete-guide/service-worker.js",
+  "static/css/main.33687901.chunk.css.map": "/react-complete-guide/static/css/main.33687901.chunk.css.map"
 }
