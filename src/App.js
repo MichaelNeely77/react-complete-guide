@@ -26,8 +26,7 @@ class App extends Component {
 
     const persons = [...this.state.persons];
     persons[personIndex] = person;
-
-    this.setState( {persons: persons} )
+    this.setState({persons: persons});
   }
 
   deletePersonHandler = (personIndex) => {
@@ -60,8 +59,8 @@ class App extends Component {
         {this.state.persons.map((person, index) => {
           return <Person 
           click={() => this.deletePersonHandler(index) }
-          name={ person.name}
-           age={ person.age}
+          name={person.name}
+           age={person.age}
            key = {person.id}
            changed={(event) => this.nameChangedHandler(event, person.id)}
            />
@@ -89,7 +88,7 @@ class App extends Component {
         <h1>Hi, I'm a React App</h1>
         <h2>This is the new code</h2>
 
-        <p className={classes.join(' ')}>This is really working!</p>
+        <p className={classes.join(' ')}>This is really working! Right?</p>
         <button 
           style={style}
           onClick={this.togglePersonsHandler}>Toggle Persons</button>
