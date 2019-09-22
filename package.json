@@ -5,6 +5,7 @@
   "homepage": "https://MichaelNeely77.github.io/react-complete-guide/",
   "dependencies": {
     "gh-pages": "^2.1.1",
+    "prop-types": "^15.7.2",
     "radium": "^0.25.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",

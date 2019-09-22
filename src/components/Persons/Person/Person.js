@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import PropTypes from 'prop-types';
 import styles from'./Person.module.css';
 
 import Auxiliary from '../../../hoc/Auxiliary'
@@ -11,17 +12,29 @@ class Person extends Component {
         console.log('[Person.js] rendering...');    
         return(
         <Fragment>
-            <p onClick={this.props.click} >I'm a {this.props.name} and I am {this.props.age} years old</p>
-            <p key="i2" >{this.props.children}</p>
-            <input key="i3" type="text" onChange={this.props.changed} value={this.props.name}
-
+            <p onClick={this.props.click} >
+                I'm a {this.props.name} and I am {this.props.age} years old
+            </p>
+            <p key="i2" >
+                {this.props.children}
+            </p>
+            <input 
+                key="i3" 
+                type="text" 
+                onChange={this.props.changed} 
+                value={this.props.name}
             />            
         </Fragment>
         );
         }
     }
     
-
+Person.propTypes = {
+    click: PropTypes.func,
+    name: PropTypes.string,
+    age: PropTypes.number,
+    changed: PropTypes.func
+};
 
 
 
