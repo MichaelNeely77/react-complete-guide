@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import styles from'./App.module.css';
+import styles from './App.module.css';
 
 import Persons from '../components/Persons/Persons';
-import Cockpit from'../components/Cockpit/Cockpit';
+import Cockpit from '../components/Cockpit/Cockpit';
 import withClass from '../hoc/withClass';
 import Auxiliary from '../hoc/Auxiliary';
 import AuthContext from '../context/auth-context';
